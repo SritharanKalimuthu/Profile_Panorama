@@ -1,0 +1,125 @@
+nav{
+    color: #fff;
+    font-weight: 700;
+    margin: 1rem 0;
+    padding: 1rem 3rem;
+    left: 30%;
+    background: rgba( 5, 25, 46, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(197, 211, 211, 0.103);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 50px;
+    filter: drop-shadow(3px 3px 5px #000);
+}
+
+.mount__nav-title{
+    font-family: "Rancho", cursive;
+    color:#ff6905;
+    text-shadow: 3px 3px 5px #970000;
+}
+
+.mount__nav-button{
+    margin-left: 5rem;
+}
+
+.mount__nav-button>button{
+    text-transform: capitalize;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: #1b34a7;
+}
+
+.mount__nav-button>button:nth-last-child(1){
+    background-color: #ff6600;
+}
+
+.mount__section1-stickers{
+    width: 6rem;
+    position: absolute;
+    filter: drop-shadow(3px 3px 5px #6d6a6a);
+}
+
+.mount__section1-animation{
+    width: 20rem;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: -1;
+    filter: drop-shadow(3px 3px 5px #000);
+}
+
+.mount__section1-stickers:nth-child(1){
+    top: 7%;
+    left: 6%;
+    rotate: 10deg;
+}
+
+.mount__section1-stickers:nth-child(2){
+    top: 14%;
+    left: 8%;
+    rotate: -10deg;
+}
+
+.mount__section1-stickers:nth-child(3){
+    top: 12%;
+    left: 20%;
+    rotate: 20deg;
+}
+
+.mount__section1-stickers:nth-child(4){
+    top: 4%;
+    right: 10%;
+    rotate: -20deg;
+}
+
+.mount__section1-stickers:nth-child(5){
+    top: 2%;
+    left:10%;
+    rotate: 30deg;
+}
+
+.mount__section1-stickers:nth-child(6){
+    top: 9%;
+    right: 15%;
+    rotate: 5deg;
+}
+
+
+.mount__section1-stickers:nth-child(7){
+    top: 2%;
+    right: 20%;
+    rotate: -50deg;
+}
+
+
+.mount__section1-stickers:nth-child(8){
+    top: 13%;
+    right: 20%;
+    rotate: -50deg;
+}
+
+
+.mount__section1-stickers:nth-child(9){
+    top: 18%;
+    right: 20%;
+    rotate: -50deg;
+}
+
+.mount__section1-title{
+    margin: 5rem 15rem 0;
+    color: #292929da;
+    text-shadow: 2px 2px 5px #1d1d1d;
+}
+
+.mount__section1-description{
+    margin: 2rem 18rem;
+    padding: 0 5rem;
+    color: #2a4d4e;
+    text-shadow: 2px 2px 5px #68686871;
+}
+
+.mount__button>button{
+    padding: .5rem 1.5rem;
+    background-color: #a71b1b;
+    border-radius: 50px;
+}
