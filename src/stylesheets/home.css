@@ -1,37 +1,3 @@
-nav{
-    color: #fff;
-    font-weight: 700;
-    margin: 1rem 0;
-    padding: 1rem 3rem;
-    left: 30%;
-    background: rgba( 5, 25, 46, 0.15 );
-    box-shadow: 0 8px 32px 0 rgba(197, 211, 211, 0.103);
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
-    border-radius: 50px;
-    filter: drop-shadow(3px 3px 5px #000);
-}
-
-.mount__nav-title{
-    font-family: "Rancho", cursive;
-    color:#ff6905;
-    text-shadow: 3px 3px 5px #970000;
-}
-
-.mount__nav-button{
-    margin-left: 5rem;
-}
-
-.mount__nav-button>button{
-    text-transform: capitalize;
-    padding: .5rem 1.5rem;
-    border-radius: 1.5rem;
-    background-color: #1b34a7;
-}
-
-.mount__nav-button>button:nth-last-child(1){
-    background-color: #ff6600;
-}
 
 .mount__section1-stickers{
     width: 6rem;
@@ -116,6 +82,10 @@ nav{
     padding: 0 5rem;
     color: #2a4d4e;
     text-shadow: 2px 2px 5px #68686871;
+}
+
+.mount__button{
+    margin: auto;
 }
 
 .mount__button>button{

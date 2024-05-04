@@ -1,0 +1,35 @@
+
+nav{
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem 5rem;
+    top: 2%;
+    left: 26%;
+    background: rgba( 5, 25, 46, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(197, 211, 211, 0.103);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 50px;
+    filter: drop-shadow(3px 3px 5px #000);
+}
+
+.nav__title{
+    font-family: "Rancho", cursive;
+    color:#ff6905;
+    text-shadow: 3px 3px 5px #970000;
+}
+
+.nav__button{
+    margin-left: 5rem;
+}
+
+.nav__button>button{
+    text-transform: capitalize;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: #1b34a7;
+}
+
+.nav__button>button:nth-last-child(1){
+    background-color: #ff6600;
+}
