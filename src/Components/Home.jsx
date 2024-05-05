@@ -55,7 +55,7 @@ function Home() {
         </p>
         {/* Animation */}
         <div className='mount__section1-animation'>
-          <Lottie animationData={groovywalk}  speed={.5}/>
+          <Lottie animationData={groovywalk}/>
         </div>
       </div>
     </div>

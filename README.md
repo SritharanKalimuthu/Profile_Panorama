@@ -18,8 +18,6 @@ Compass is a web application that allows users to create and manage their profil
 - **ESLint:** A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 - **PostCSS:** A tool for transforming CSS with JavaScript plugins.
 - **Autoprefixer:** A PostCSS plugin to parse CSS and add vendor prefixes to CSS rules.
-- **React Plx:** A library for creating parallax effects in React applications.
-- **Match Sorter:** A library for fuzzy searching and sorting collections.
 
 ## Tools Used
 
@@ -27,6 +25,8 @@ Compass is a web application that allows users to create and manage their profil
 - **Git:** A version control system for tracking changes in source code during software development.
 - **GitHub:** A platform for hosting and collaborating on Git repositories.
 - **Visual Studio Code:** A source code editor with built-in support for JavaScript, TypeScript, and Node.js.
+
+## Tools Used
 
 ## Installation
 

@@ -102,6 +102,12 @@
         font-size: 1.2rem;
         margin: 0;
     }
+
+    .mount__section1-stickers{
+        width: 4rem;
+        filter: blur(5px);
+    }
+
     .mount__section1-animation {
         top: 50%;
         right: 10%;

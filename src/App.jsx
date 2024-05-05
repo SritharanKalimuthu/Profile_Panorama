@@ -19,7 +19,7 @@ function App() {
         {/* Navigation bar */}
         <nav className='nav absolute flex items-center justify-between z-10'>
           {/* Title */}
-          <h1 className='nav__title capitalize text-4xl font-extrabold tracking-wide drop-shadow-2xl'>compass</h1>
+          <h1 className='nav__title capitalize font-extrabold tracking-wide drop-shadow-2xl'>compass</h1>
           
           {/* Navigation buttons */}
           <div className='nav__button flex capitalize text-sm'>

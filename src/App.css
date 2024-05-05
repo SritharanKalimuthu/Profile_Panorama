@@ -13,6 +13,8 @@ body {
 
 /* Style for navigation bar */
 nav {
+    display: flex;
+    align-items: center;
     color: #fff;
     font-weight: 700;
     padding: 1rem 5rem;
@@ -28,6 +30,7 @@ nav {
 
 /* Style for navigation title */
 .nav__title {
+    font-size: 2rem;
     font-family: "Rancho", cursive;
     color: #ff6905;
     text-shadow: 3px 3px 5px #970000;
@@ -49,9 +52,10 @@ nav {
 /* Media query for smaller screens */
 @media screen and (max-width: 540px) {
     nav {
+        left: 0;
         margin: 0;
         padding: 1rem 2rem;
-        left: 0;
+        width: 100%;
     }
 
     .nav__button {
@@ -59,6 +63,7 @@ nav {
     }
 
     .nav__title {
+        font-size: 1.2rem;
         margin-right: 2rem;
     }
 }
