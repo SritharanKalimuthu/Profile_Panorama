@@ -1,5 +1,6 @@
-.testimonal{
-    padding: 1rem 10rem;
+/* Styling for the testimonials container */
+.testimonal {
+    padding: 1rem 8rem;
     color: #000;
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -7,12 +8,14 @@
     column-gap: 20px;
 }
 
-.testimonal__title{
+/* Styling for the testimonials title */
+.testimonal__title {
     color: #240015;
     text-shadow: 2px 2px 5px #6d01406e;
 }
 
-.testimonal__grid{
+/* Styling for each testimonial grid item */
+.testimonal__grid {
     display: flex;
     flex-direction: column;
     border: none;
@@ -22,45 +25,66 @@
     transition: ease 2s;
 }
 
+/* Styling for the first grid item */
 .grid-1 {
-    background-color:#7541c8;
+    background-color: #7541c8;
     background-repeat: no-repeat;
     background-position: right 6rem top;
     grid-column: 1/3;
 }
 
+/* Styling for the second grid item */
 .grid-2 {
-    background-color:  hsl(217, 19%, 35%);
+    background-color: hsl(217, 19%, 35%);
     width: 17.8rem;
 }
 
+/* Styling for the third grid item */
 .grid-3 {
-    background-color:  #cfcfcf;
+    background-color: #cfcfcf;
     grid-column: 4/4;
     grid-row: 1/3;
     width: 16rem;
 }
 
+/* Styling for the fourth grid item */
 .grid-4 {
-    background-color: #19212e ;
+    background-color: #19212e;
     width: 17.8rem;
     color: #fff;
 }
 
+/* Styling for the fifth grid item */
 .grid-5 {
-    background-color:  #ecf2f8;
+    background-color: #ecf2f8;
     grid-column: 2/4;
 }
 
-.testimonal__author>div>p{
+/* Styling for the author's information */
+.testimonal__author > div > p {
     font-family: "Rancho", cursive;
 }
 
-.testimonal__author>img{
+/* Styling for the author's image */
+.testimonal__author > img {
     width: 3rem;
-    filter:drop-shadow(2px 2px 5px #000) ;
+    filter: drop-shadow(2px 2px 5px #000);
 }
 
-.testimonal__signature{
+/* Styling for the testimonial signature */
+.testimonal__signature {
     font-family: "Mrs Saint Delafield", cursive;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width:540px) {
+    .testimonal {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonal__grid {
+        width: auto;
+    }
 }

@@ -1,95 +1,109 @@
-
-.mount__section1-stickers{
-    width: 6rem;
-    position: absolute;
-    filter: drop-shadow(3px 3px 5px #6d6a6a);
-}
-
-.mount__section1-animation{
-    width: 20rem;
-    position: absolute;
-    top: 10%;
-    right: 0;
-    z-index: -1;
-    filter: drop-shadow(3px 3px 5px #000);
-}
-
-.mount__section1-stickers:nth-child(1){
-    top: 7%;
-    left: 6%;
-    rotate: 10deg;
-}
-
-.mount__section1-stickers:nth-child(2){
-    top: 14%;
-    left: 8%;
-    rotate: -10deg;
-}
-
-.mount__section1-stickers:nth-child(3){
-    top: 12%;
-    left: 20%;
-    rotate: 20deg;
-}
-
-.mount__section1-stickers:nth-child(4){
-    top: 4%;
-    right: 10%;
-    rotate: -20deg;
-}
-
-.mount__section1-stickers:nth-child(5){
-    top: 2%;
-    left:10%;
-    rotate: 30deg;
-}
-
-.mount__section1-stickers:nth-child(6){
-    top: 9%;
-    right: 15%;
-    rotate: 5deg;
-}
-
-
-.mount__section1-stickers:nth-child(7){
-    top: 2%;
-    right: 20%;
-    rotate: -50deg;
-}
-
-
-.mount__section1-stickers:nth-child(8){
-    top: 13%;
-    right: 20%;
-    rotate: -50deg;
-}
-
-
-.mount__section1-stickers:nth-child(9){
-    top: 18%;
-    right: 20%;
-    rotate: -50deg;
-}
-
-.mount__section1-title{
+/* Styling for title */
+.mount__section1-title {
+    font-size: 3.8rem;
     margin: 5rem 15rem 0;
     color: #292929da;
     text-shadow: 2px 2px 5px #1d1d1d;
 }
 
-.mount__section1-description{
+/* Styling for description */
+.mount__section1-description {
+    font-size: 1.3rem;
     margin: 2rem 18rem;
     padding: 0 5rem;
     color: #2a4d4e;
     text-shadow: 2px 2px 5px #68686871;
 }
 
-.mount__button{
-    margin: auto;
+/* Styling for stickers */
+.mount__section1-stickers {
+    width: 6rem;
+    position: absolute;
+    filter: drop-shadow(3px 3px 5px #6d6a6a);
 }
 
-.mount__button>button{
-    padding: .5rem 1.5rem;
-    background-color: #a71b1b;
-    border-radius: 50px;
+/* Styling for animation */
+.mount__section1-animation {
+    width: 20rem;
+    position: absolute;
+    top: 13%;
+    right: 40%;
+    z-index: -1;
+    filter: drop-shadow(3px 3px 5px #000);
+}
+
+/* Positioning and rotation for each sticker */
+.mount__section1-stickers:nth-child(1) {
+    top: 7%;
+    left: 6%;
+    rotate: 10deg;
+}
+
+.mount__section1-stickers:nth-child(2) {
+    top: 14%;
+    left: 8%;
+    rotate: -10deg;
+}
+
+.mount__section1-stickers:nth-child(3) {
+    top: 12%;
+    left: 20%;
+    rotate: 20deg;
+}
+
+.mount__section1-stickers:nth-child(4) {
+    top: 4%;
+    right: 10%;
+    rotate: -20deg;
+}
+
+.mount__section1-stickers:nth-child(5) {
+    top: 2%;
+    left:10%;
+    rotate: 30deg;
+}
+
+.mount__section1-stickers:nth-child(6) {
+    top: 9%;
+    right: 15%;
+    rotate: 5deg;
+}
+
+.mount__section1-stickers:nth-child(7) {
+    top: 2%;
+    right: 20%;
+    rotate: -50deg;
+}
+
+.mount__section1-stickers:nth-child(8) {
+    top: 13%;
+    right: 20%;
+    rotate: -50deg;
+}
+
+.mount__section1-stickers:nth-child(9) {
+    top: 18%;
+    right: 20%;
+    rotate: -50deg;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width:540px) {
+    .mount__section1-title {
+        margin: 4rem 1rem;
+        font-size: 2rem;
+    }
+    .mount__section1-content {
+        height: 100vh;
+        backdrop-filter: blur(10px);
+    }
+
+    .mount__section1-description {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .mount__section1-animation {
+        top: 50%;
+        right: 10%;
+    }
 }

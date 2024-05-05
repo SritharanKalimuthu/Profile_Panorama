@@ -1,10 +1,64 @@
+/* Define font families */
 /*
- font-family: "Rancho", cursive;
- font-family: "Mrs Saint Delafield", cursive;
- font-family: "Josefin Sans", sans-serif;
- font-family: "Faster One", system-ui;
- */
+font-family: "Rancho", cursive;
+font-family: "Mrs Saint Delafield", cursive;
+font-family: "Josefin Sans", sans-serif;
+font-family: "Faster One", system-ui;
+*/
 
-body{
+/* Apply font family to the body */
+body {
     font-family: "Josefin Sans", sans-serif;
+}
+
+/* Style for navigation bar */
+nav {
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem 5rem;
+    top: 2%;
+    left: 26%;
+    background: rgba( 5, 25, 46, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(197, 211, 211, 0.103);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 50px;
+    filter: drop-shadow(3px 3px 5px #000);
+}
+
+/* Style for navigation title */
+.nav__title {
+    font-family: "Rancho", cursive;
+    color: #ff6905;
+    text-shadow: 3px 3px 5px #970000;
+    margin-right: 5rem;
+}
+
+/* Style for navigation buttons */
+.nav__button {
+    margin-left: 5rem;
+}
+
+.nav__btn {
+    text-transform: capitalize;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: #1b34a7;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 540px) {
+    nav {
+        margin: 0;
+        padding: 1rem 2rem;
+        left: 0;
+    }
+
+    .nav__button {
+        margin: 0;
+    }
+
+    .nav__title {
+        margin-right: 2rem;
+    }
 }

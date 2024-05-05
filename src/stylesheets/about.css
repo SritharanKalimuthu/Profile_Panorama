@@ -1,22 +1,37 @@
-
-.about>p, .about__content-article1>p,  .about__content-article2>p{
+/* Styling for paragraphs */
+.about > p,
+.about__content-article1 > p,
+.about__content-article2 > p {
     font-family: "Rancho", cursive;
-    color: #352121c2;
+    color: #1001538f;
     text-shadow: 2px 2px 5px #5e5e5e94;
 }
 
-.about__title{
-    color: #470707;
+/* Styling for title */
+.about__title {
+    color: #100153;
     text-shadow: 2px 2px 5px #000;
 }
 
-.about__content-article1>h2,  .about__content-article2>h2, .about__content-article1>ul,  .about__content-article2>ul{
+/* Styling for article titles and lists */
+.about__content-article1 > h2,
+.about__content-article2 > h2,
+.about__content-article1 > ul,
+.about__content-article2 > ul {
     font-style: italic;
     color: #08002b;
-    text-shadow:2px 2px 5px #5e5e5e94;
+    text-shadow: 2px 2px 5px #5e5e5e94;
 }
 
-.about__content-article1>ul>li,  .about__content-article2>ul>li{
+/* Styling for list items */
+.about__content-article1 > ul > li,
+.about__content-article2 > ul > li {
     font-weight: 500;
 }
 
+/* Media query for smaller screens */
+@media screen and (max-width:540px) {
+    .about__content {
+        flex-direction: column;
+    }
+}
