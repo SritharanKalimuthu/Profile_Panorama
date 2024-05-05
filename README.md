@@ -26,7 +26,9 @@ Compass is a web application that allows users to create and manage their profil
 - **GitHub:** A platform for hosting and collaborating on Git repositories.
 - **Visual Studio Code:** A source code editor with built-in support for JavaScript, TypeScript, and Node.js.
 
-## Tools Used
+## Preview Site
+
+- **Site** - Click <a href="https://compass-shareprofile.netlify.app/">Here</a>
 
 ## Installation
 

@@ -82,7 +82,7 @@
 }
 
 .mount__section1-stickers:nth-child(9) {
-    top: 18%;
+    top: 16%;
     right: 20%;
     rotate: -50deg;
 }
@@ -109,7 +109,6 @@
     }
 
     .mount__section1-animation {
-        top: 50%;
-        right: 10%;
+        display: none;
     }
 }

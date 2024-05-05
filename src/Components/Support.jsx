@@ -15,7 +15,7 @@ function Support() {
           {/* Grid item 1: About */}
           <div className="support__grid-1 p-9 rounded-lg">
             <h1 className=' font-black capitalize leading-tight'>Every profile tells a story.</h1>
-            <p className='text-xl mt-4 font-bold'>@deb</p>
+            <p className='text-xl mt-4 font-bold'>@compass</p>
             <p className='mt-3'>© 2024 All Rights Reserved</p>
           </div>
 
