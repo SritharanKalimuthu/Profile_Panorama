@@ -28,7 +28,7 @@ Compass is a web application that allows users to create and manage their profil
 
 ## Preview Site
 
-- **Site** - Click <a href="https://compass-shareprofile.netlify.app/">Here</a>
+- **Compass - Discover, Connect, Inspire - through profiles** - Click <a href="https://compass-shareprofile.netlify.app/">Here</a>
 
 ## Installation
 
